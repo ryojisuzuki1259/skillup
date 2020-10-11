@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.nav-list {
+  float: left;
+  width: 120px;
+  line-height: 70px;
+  color: #fafafa;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav-list a {
+  color: #fafafa;
+}
+
+#mv {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #fafafa;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-title {
+  padding-top: 200px;
+  font-family: "Raleway", "sans-serif";
+  font-size: 64px;
+}
+
+.mv-text {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#portfolio {
+  background-color: #eceff1;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Raleway", "sans-serif";
+  font-size: 32px;
+}
+
+.heading-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.production-group {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.production {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.production:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+#feature {
+  background-size: cover;
+  background-position: center;
+}
+
+.strength-group {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+.strength:last-child {
+  margin-right: 0;
+}
